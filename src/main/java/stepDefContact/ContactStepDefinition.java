@@ -1,4 +1,4 @@
-package stepDefContact;
+/*package stepDefContact;
 
 import java.util.concurrent.TimeUnit;
 
@@ -68,7 +68,7 @@ public class ContactStepDefinition {
 	}
 	
 	@Then("^user enters contact details \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\"$")
-	public void user_enters_contact_details_and_and(String firstName, String lastName, String position) {
+	public void user_enters_contact_details(String firstName, String lastName, String position) {
 		driver.findElement(By.id("first_name")).sendKeys(firstName);
 		driver.findElement(By.id("surname")).sendKeys(lastName);
 		driver.findElement(By.id("company_position")).sendKeys(position);
@@ -82,3 +82,4 @@ public class ContactStepDefinition {
 	}
 
 }
+*/
